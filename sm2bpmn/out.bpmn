@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<semantic:definitions id="id_58" targetNamespace="http://www.trisotech.com/definitions/_1275500364427" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:semantic="http://www.omg.org/spec/BPMN/20100524/MODEL">
+<semantic:process isExecutable="false" id="id_56">
+<semantic:startEvent name="" id="id_0">
+	<semantic:outgoing>id_2</semantic:outgoing>
+</semantic:startEvent>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT5" id="COMPONENT5">
+	<semantic:incoming>id_3</semantic:incoming>
+	<semantic:outgoing>id_7</semantic:outgoing>
+</semantic:task>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT1" id="COMPONENT1">
+	<semantic:incoming>id_4</semantic:incoming>
+	<semantic:outgoing>id_8</semantic:outgoing>
+</semantic:task>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT2" id="COMPONENT2">
+	<semantic:incoming>id_6</semantic:incoming>
+	<semantic:outgoing>id_9</semantic:outgoing>
+</semantic:task>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT3" id="COMPONENT3">
+	<semantic:incoming>id_9</semantic:incoming>
+	<semantic:outgoing>id_10</semantic:outgoing>
+</semantic:task>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT4" id="COMPONENT4">
+	<semantic:incoming>id_10</semantic:incoming>
+	<semantic:outgoing>id_12</semantic:outgoing>
+</semantic:task>
+<semantic:parallelGateway gatewayDirection="Unspecified" name="" id="id_1">
+	<semantic:incoming>id_2</semantic:incoming>
+	<semantic:outgoing>id_3</semantic:outgoing>
+	<semantic:outgoing>id_4</semantic:outgoing>
+</semantic:parallelGateway>
+<semantic:parallelGateway gatewayDirection="Unspecified" name="" id="id_5">
+	<semantic:incoming>id_7</semantic:incoming>
+	<semantic:incoming>id_8</semantic:incoming>
+	<semantic:outgoing>id_6</semantic:outgoing>
+</semantic:parallelGateway>
+<semantic:endEvent name="" id="id_11">
+	<semantic:incoming>id_12</semantic:incoming>
+</semantic:endEvent>
+<semantic:sequenceFlow sourceRef="COMPONENT3" targetRef="COMPONENT4" name="" id="id_10"/>
+<semantic:sequenceFlow sourceRef="COMPONENT4" targetRef="id_11" name="" id="id_12"/>
+<semantic:sequenceFlow sourceRef="id_1" targetRef="COMPONENT5" name="" id="id_3"/>
+<semantic:sequenceFlow sourceRef="id_0" targetRef="id_1" name="" id="id_2"/>
+<semantic:sequenceFlow sourceRef="id_5" targetRef="COMPONENT2" name="" id="id_6"/>
+<semantic:sequenceFlow sourceRef="COMPONENT5" targetRef="id_5" name="" id="id_7"/>
+<semantic:sequenceFlow sourceRef="id_1" targetRef="COMPONENT1" name="" id="id_4"/>
+<semantic:sequenceFlow sourceRef="COMPONENT1" targetRef="id_5" name="" id="id_8"/>
+<semantic:sequenceFlow sourceRef="COMPONENT2" targetRef="COMPONENT3" name="" id="id_9"/>
+<semantic:textAnnotation id="id_20">
+<semantic:text>no description</semantic:text>
+</semantic:textAnnotation>
+<semantic:textAnnotation id="id_24">
+<semantic:text>no description</semantic:text>
+</semantic:textAnnotation>
+<semantic:textAnnotation id="id_22">
+<semantic:text>no description</semantic:text>
+</semantic:textAnnotation>
+<semantic:textAnnotation id="id_18">
+<semantic:text>no description</semantic:text>
+</semantic:textAnnotation>
+<semantic:textAnnotation id="id_26">
+<semantic:text>no description</semantic:text>
+</semantic:textAnnotation>
+<semantic:association associationDirection="None" sourceRef="id_20" targetRef="COMPONENT2" id="id_21"/>
+<semantic:association associationDirection="None" sourceRef="id_24" targetRef="COMPONENT4" id="id_25"/>
+<semantic:association associationDirection="None" sourceRef="id_22" targetRef="COMPONENT3" id="id_23"/>
+<semantic:association associationDirection="None" sourceRef="id_26" targetRef="COMPONENT5" id="id_27"/>
+<semantic:association associationDirection="None" sourceRef="id_18" targetRef="COMPONENT1" id="id_19"/>
+</semantic:process>
+<bpmndi:BPMNDiagram documentation="" id="id_57" name="" resolution="96.00000267028808">
+<bpmndi:BPMNPlane bpmnElement="id_56">
+<bpmndi:BPMNShape bpmnElement="COMPONENT4" id="id_50">
+<dc:Bounds height="64.0" width="128.0" x="1664.0" y="320.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_26" id="id_55">
+<dc:Bounds height="64.0" width="128.0" x="704.0" y="288.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_0" id="id_42">
+<dc:Bounds height="64.0" width="128.0" x="128.0" y="288.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_11" id="id_43">
+<dc:Bounds height="64.0" width="128.0" x="1920.0" y="288.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_1" id="id_44">
+<dc:Bounds height="64.0" width="128.0" x="384.0" y="288.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_22" id="id_53">
+<dc:Bounds height="64.0" width="128.0" x="1472.0" y="192.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_18" id="id_54">
+<dc:Bounds height="64.0" width="128.0" x="704.0" y="32.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_5" id="id_45">
+<dc:Bounds height="64.0" width="128.0" x="896.0" y="288.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="COMPONENT5" id="id_46">
+<dc:Bounds height="64.0" width="128.0" x="640.0" y="416.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_20" id="id_51">
+<dc:Bounds height="64.0" width="128.0" x="1216.0" y="192.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="COMPONENT1" id="id_47">
+<dc:Bounds height="64.0" width="128.0" x="640.0" y="160.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_24" id="id_52">
+<dc:Bounds height="64.0" width="128.0" x="1728.0" y="192.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="COMPONENT2" id="id_48">
+<dc:Bounds height="64.0" width="128.0" x="1152.0" y="320.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="COMPONENT3" id="id_49">
+<dc:Bounds height="64.0" width="128.0" x="1408.0" y="320.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNEdge bpmnElement="id_12" id="id_29">
+<di:waypoint x="1792.0" y="352.0"/>
+<di:waypoint x="1920.0" y="320.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_10" id="id_28">
+<di:waypoint x="1536.0" y="352.0"/>
+<di:waypoint x="1664.0" y="352.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_27" id="id_40">
+<di:waypoint x="704.0" y="320.0"/>
+<di:waypoint x="704.0" y="416.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_2" id="id_31">
+<di:waypoint x="256.0" y="320.0"/>
+<di:waypoint x="384.0" y="320.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_19" id="id_41">
+<di:waypoint x="704.0" y="64.0"/>
+<di:waypoint x="704.0" y="160.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_6" id="id_32">
+<di:waypoint x="1024.0" y="320.0"/>
+<di:waypoint x="1152.0" y="352.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_3" id="id_30">
+<di:waypoint x="512.0" y="320.0"/>
+<di:waypoint x="640.0" y="448.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_8" id="id_35">
+<di:waypoint x="768.0" y="192.0"/>
+<di:waypoint x="896.0" y="320.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_9" id="id_36">
+<di:waypoint x="1280.0" y="352.0"/>
+<di:waypoint x="1408.0" y="352.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_7" id="id_33">
+<di:waypoint x="768.0" y="448.0"/>
+<di:waypoint x="896.0" y="320.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_4" id="id_34">
+<di:waypoint x="512.0" y="320.0"/>
+<di:waypoint x="640.0" y="192.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_23" id="id_39">
+<di:waypoint x="1472.0" y="224.0"/>
+<di:waypoint x="1472.0" y="320.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_21" id="id_37">
+<di:waypoint x="1216.0" y="224.0"/>
+<di:waypoint x="1216.0" y="320.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_25" id="id_38">
+<di:waypoint x="1728.0" y="224.0"/>
+<di:waypoint x="1728.0" y="320.0"/>
+</bpmndi:BPMNEdge>
+</bpmndi:BPMNPlane>
+</bpmndi:BPMNDiagram>
+</semantic:definitions>

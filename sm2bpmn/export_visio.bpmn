@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="_0IuscNkoEeKo-aw9dXnnQA">
+	<bpmn2:process id="_0IuscdkoEeKo-aw9dXnnQA">
+		<bpmn2:task id="_0IusctkoEeKo-aw9dXnnQA" name="COMPONENT4">
+			<bpmn2:incoming>_0Iusc9koEeKo-aw9dXnnQA</bpmn2:incoming>
+			<bpmn2:outgoing>_0IusdNkoEeKo-aw9dXnnQA</bpmn2:outgoing>
+		</bpmn2:task>
+		<bpmn2:endEvent id="_0IusddkoEeKo-aw9dXnnQA" name="">
+			<bpmn2:incoming>_0IusdNkoEeKo-aw9dXnnQA</bpmn2:incoming>
+		</bpmn2:endEvent>
+		<bpmn2:sequenceFlow id="_0IusdNkoEeKo-aw9dXnnQA" sourceRef="_0IusctkoEeKo-aw9dXnnQA" targetRef="_0IusddkoEeKo-aw9dXnnQA"/>
+		<bpmn2:inclusiveGateway id="_0IusdtkoEeKo-aw9dXnnQA" name="">
+			<bpmn2:outgoing>_0Iusd9koEeKo-aw9dXnnQA</bpmn2:outgoing>
+			<bpmn2:outgoing>_0IuseNkoEeKo-aw9dXnnQA</bpmn2:outgoing>
+		</bpmn2:inclusiveGateway>
+		<bpmn2:task id="_0IusedkoEeKo-aw9dXnnQA" name="COMPONENT5">
+			<bpmn2:incoming>_0Iusd9koEeKo-aw9dXnnQA</bpmn2:incoming>
+			<bpmn2:outgoing>_0IusetkoEeKo-aw9dXnnQA</bpmn2:outgoing>
+		</bpmn2:task>
+		<bpmn2:inclusiveGateway id="_0Iuse9koEeKo-aw9dXnnQA" name="">
+			<bpmn2:incoming>_0IusetkoEeKo-aw9dXnnQA</bpmn2:incoming>
+			<bpmn2:incoming>_0IusfNkoEeKo-aw9dXnnQA</bpmn2:incoming>
+			<bpmn2:outgoing>_0IusfdkoEeKo-aw9dXnnQA</bpmn2:outgoing>
+		</bpmn2:inclusiveGateway>
+		<bpmn2:task id="_0IusftkoEeKo-aw9dXnnQA" name="COMPONENT2">
+			<bpmn2:incoming>_0IusfdkoEeKo-aw9dXnnQA</bpmn2:incoming>
+			<bpmn2:outgoing>_0Iusf9koEeKo-aw9dXnnQA</bpmn2:outgoing>
+		</bpmn2:task>
+		<bpmn2:task id="_0IusgNkoEeKo-aw9dXnnQA" name="COMPONENT3">
+			<bpmn2:incoming>_0Iusf9koEeKo-aw9dXnnQA</bpmn2:incoming>
+			<bpmn2:outgoing>_0Iusc9koEeKo-aw9dXnnQA</bpmn2:outgoing>
+		</bpmn2:task>
+		<bpmn2:sequenceFlow id="_0Iusc9koEeKo-aw9dXnnQA" sourceRef="_0IusgNkoEeKo-aw9dXnnQA" targetRef="_0IusctkoEeKo-aw9dXnnQA"/>
+		<bpmn2:sequenceFlow id="_0Iusf9koEeKo-aw9dXnnQA" sourceRef="_0IusftkoEeKo-aw9dXnnQA" targetRef="_0IusgNkoEeKo-aw9dXnnQA"/>
+		<bpmn2:sequenceFlow id="_0IusfdkoEeKo-aw9dXnnQA" sourceRef="_0Iuse9koEeKo-aw9dXnnQA" targetRef="_0IusftkoEeKo-aw9dXnnQA"/>
+		<bpmn2:sequenceFlow id="_0IusetkoEeKo-aw9dXnnQA" sourceRef="_0IusedkoEeKo-aw9dXnnQA" targetRef="_0Iuse9koEeKo-aw9dXnnQA"/>
+		<bpmn2:sequenceFlow id="_0Iusd9koEeKo-aw9dXnnQA" sourceRef="_0IusdtkoEeKo-aw9dXnnQA" targetRef="_0IusedkoEeKo-aw9dXnnQA"/>
+		<bpmn2:task id="_0IusgdkoEeKo-aw9dXnnQA" name="COMPONENT1">
+			<bpmn2:incoming>_0IuseNkoEeKo-aw9dXnnQA</bpmn2:incoming>
+			<bpmn2:outgoing>_0IusfNkoEeKo-aw9dXnnQA</bpmn2:outgoing>
+		</bpmn2:task>
+		<bpmn2:sequenceFlow id="_0IusfNkoEeKo-aw9dXnnQA" sourceRef="_0IusgdkoEeKo-aw9dXnnQA" targetRef="_0Iuse9koEeKo-aw9dXnnQA"/>
+		<bpmn2:sequenceFlow id="_0IuseNkoEeKo-aw9dXnnQA" sourceRef="_0IusdtkoEeKo-aw9dXnnQA" targetRef="_0IusgdkoEeKo-aw9dXnnQA"/>
+	</bpmn2:process>
+	<bpmndi:BPMNDiagram id="_0IusgtkoEeKo-aw9dXnnQA">
+		<bpmndi:BPMNPlane id="_0Iusg9koEeKo-aw9dXnnQA" bpmnElement="_0IuscdkoEeKo-aw9dXnnQA">
+			<bpmndi:BPMNShape id="_0IushNkoEeKo-aw9dXnnQA" bpmnElement="_0IusctkoEeKo-aw9dXnnQA">
+				<dc:Bounds height="80.0" width="100.0" x="1664.0" y="320.0"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="_0IushdkoEeKo-aw9dXnnQA" bpmnElement="_0IusddkoEeKo-aw9dXnnQA">
+				<dc:Bounds height="40.0" width="40.0" x="1920.0" y="288.0"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNEdge id="_0IushtkoEeKo-aw9dXnnQA" bpmnElement="_0IusdNkoEeKo-aw9dXnnQA">
+				<di:waypoint xsi:type="dc:Point" x="1714.0" y="360.0"/>
+				<di:waypoint xsi:type="dc:Point" x="1940.0" y="308.0"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNShape id="_0Iush9koEeKo-aw9dXnnQA" bpmnElement="_0IusdtkoEeKo-aw9dXnnQA">
+				<dc:Bounds height="80.0" width="100.0" x="384.0" y="288.0"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="_0IusiNkoEeKo-aw9dXnnQA" bpmnElement="_0IusedkoEeKo-aw9dXnnQA">
+				<dc:Bounds height="80.0" width="100.0" x="640.0" y="416.0"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="_0IusidkoEeKo-aw9dXnnQA" bpmnElement="_0Iuse9koEeKo-aw9dXnnQA">
+				<dc:Bounds height="80.0" width="100.0" x="896.0" y="288.0"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="_0IusitkoEeKo-aw9dXnnQA" bpmnElement="_0IusftkoEeKo-aw9dXnnQA">
+				<dc:Bounds height="80.0" width="100.0" x="1152.0" y="320.0"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNShape id="_0Iusi9koEeKo-aw9dXnnQA" bpmnElement="_0IusgNkoEeKo-aw9dXnnQA">
+				<dc:Bounds height="80.0" width="100.0" x="1408.0" y="320.0"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNEdge id="_0IusjNkoEeKo-aw9dXnnQA" bpmnElement="_0Iusc9koEeKo-aw9dXnnQA">
+				<di:waypoint xsi:type="dc:Point" x="1458.0" y="360.0"/>
+				<di:waypoint xsi:type="dc:Point" x="1714.0" y="360.0"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="_0IusjdkoEeKo-aw9dXnnQA" bpmnElement="_0Iusf9koEeKo-aw9dXnnQA">
+				<di:waypoint xsi:type="dc:Point" x="1202.0" y="360.0"/>
+				<di:waypoint xsi:type="dc:Point" x="1458.0" y="360.0"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="_0IusjtkoEeKo-aw9dXnnQA" bpmnElement="_0IusfdkoEeKo-aw9dXnnQA">
+				<di:waypoint xsi:type="dc:Point" x="946.0" y="328.0"/>
+				<di:waypoint xsi:type="dc:Point" x="1202.0" y="360.0"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="_0Iusj9koEeKo-aw9dXnnQA" bpmnElement="_0IusetkoEeKo-aw9dXnnQA">
+				<di:waypoint xsi:type="dc:Point" x="690.0" y="456.0"/>
+				<di:waypoint xsi:type="dc:Point" x="946.0" y="328.0"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="_0IuskNkoEeKo-aw9dXnnQA" bpmnElement="_0Iusd9koEeKo-aw9dXnnQA">
+				<di:waypoint xsi:type="dc:Point" x="434.0" y="328.0"/>
+				<di:waypoint xsi:type="dc:Point" x="690.0" y="456.0"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNShape id="_0IuskdkoEeKo-aw9dXnnQA" bpmnElement="_0IusgdkoEeKo-aw9dXnnQA">
+				<dc:Bounds height="80.0" width="100.0" x="640.0" y="160.0"/>
+			</bpmndi:BPMNShape>
+			<bpmndi:BPMNEdge id="_0IusktkoEeKo-aw9dXnnQA" bpmnElement="_0IusfNkoEeKo-aw9dXnnQA">
+				<di:waypoint xsi:type="dc:Point" x="690.0" y="200.0"/>
+				<di:waypoint xsi:type="dc:Point" x="946.0" y="328.0"/>
+			</bpmndi:BPMNEdge>
+			<bpmndi:BPMNEdge id="_0Iusk9koEeKo-aw9dXnnQA" bpmnElement="_0IuseNkoEeKo-aw9dXnnQA">
+				<di:waypoint xsi:type="dc:Point" x="434.0" y="328.0"/>
+				<di:waypoint xsi:type="dc:Point" x="690.0" y="200.0"/>
+			</bpmndi:BPMNEdge>
+		</bpmndi:BPMNPlane>
+	</bpmndi:BPMNDiagram>
+</bpmn2:definitions>

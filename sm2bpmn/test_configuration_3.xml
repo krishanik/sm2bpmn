@@ -1,0 +1,375 @@
+<ServiceModelConfigurator xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="ServiceModeller.DataModel.Serialization">
+	<Content xmlns:d2p1="http://schemas.datacontract.org/2004/07/ServiceModeller.DataModel.Serialization">
+		<d2p1:EdgesServiceNodes>
+			<d2p1:Edges>
+				<d2p1:Child>304fcda1-091e-4b6d-b9b4-dc4f54a9a4f9</d2p1:Child>
+				<d2p1:Parent>09cd77df-c506-4c43-bb88-ae5411809d7a</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>515f0faf-f662-473f-9910-ccb9a10bc343</d2p1:Child>
+				<d2p1:Parent>09cd77df-c506-4c43-bb88-ae5411809d7a</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>2a480d5d-00f1-4e96-82e8-4ae6caf20c9f</d2p1:Child>
+				<d2p1:Parent>304fcda1-091e-4b6d-b9b4-dc4f54a9a4f9</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>06c4850f-da7c-4332-a8fe-30478ae9f774</d2p1:Child>
+				<d2p1:Parent>304fcda1-091e-4b6d-b9b4-dc4f54a9a4f9</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>52a2601a-3887-4e71-83ae-5eddadc1ca3b</d2p1:Child>
+				<d2p1:Parent>06c4850f-da7c-4332-a8fe-30478ae9f774</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>9b634612-fd10-4b5a-b5c5-2c93beb32e81</d2p1:Child>
+				<d2p1:Parent>52a2601a-3887-4e71-83ae-5eddadc1ca3b</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>692bc1b6-3173-480a-bcc4-a4b6fa2fa784</d2p1:Child>
+				<d2p1:Parent>52a2601a-3887-4e71-83ae-5eddadc1ca3b</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>6bc2d5d7-ff2c-42f1-a53b-02fbc1301cc6</d2p1:Child>
+				<d2p1:Parent>515f0faf-f662-473f-9910-ccb9a10bc343</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>0b9a9a71-6605-4897-b6e0-e15f76cd2381</d2p1:Child>
+				<d2p1:Parent>515f0faf-f662-473f-9910-ccb9a10bc343</d2p1:Parent>
+			</d2p1:Edges>
+		</d2p1:EdgesServiceNodes>
+		<d2p1:EdgesViewModels>
+			<d2p1:Edges>
+				<d2p1:Child>d73a18f0-9e2c-40d9-b31a-a058d5d2d0a7</d2p1:Child>
+				<d2p1:Parent>d2eb3e2c-c8dd-471d-9197-02d95764fa48</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>ff5ee7bf-332e-46be-a483-8289808f9f7c</d2p1:Child>
+				<d2p1:Parent>d2eb3e2c-c8dd-471d-9197-02d95764fa48</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>89e09a4b-5ef8-496c-8365-e039c6f61280</d2p1:Child>
+				<d2p1:Parent>d73a18f0-9e2c-40d9-b31a-a058d5d2d0a7</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>cbd34adb-9138-4efc-8214-269702605302</d2p1:Child>
+				<d2p1:Parent>d73a18f0-9e2c-40d9-b31a-a058d5d2d0a7</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>2c1b8175-11bf-4e04-a9f4-804d3dc374ab</d2p1:Child>
+				<d2p1:Parent>cbd34adb-9138-4efc-8214-269702605302</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>b90fcf20-0efe-4195-aea3-4ef3f92d690b</d2p1:Child>
+				<d2p1:Parent>2c1b8175-11bf-4e04-a9f4-804d3dc374ab</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>e0145c28-1781-44cc-b62b-f5688b6b8bbe</d2p1:Child>
+				<d2p1:Parent>2c1b8175-11bf-4e04-a9f4-804d3dc374ab</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>0593a491-6c02-4d31-b205-56dd2a176fbc</d2p1:Child>
+				<d2p1:Parent>ff5ee7bf-332e-46be-a483-8289808f9f7c</d2p1:Parent>
+			</d2p1:Edges>
+			<d2p1:Edges>
+				<d2p1:Child>5a8c67e7-8959-4506-8352-dfe33a79bc1a</d2p1:Child>
+				<d2p1:Parent>ff5ee7bf-332e-46be-a483-8289808f9f7c</d2p1:Parent>
+			</d2p1:Edges>
+		</d2p1:EdgesViewModels>
+		<d2p1:ServiceNodes>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectComponent">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>09cd77df-c506-4c43-bb88-ae5411809d7a</d2p1:Guid>
+				<d2p1:Name>SERVICE1</d2p1:Name>
+				<d2p1:Attributes />
+				<d2p1:Characteristics />
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectConnector">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>304fcda1-091e-4b6d-b9b4-dc4f54a9a4f9</d2p1:Guid>
+				<d2p1:Name>CONNECTOR1</d2p1:Name>
+				<d2p1:Cardinalities>
+					<d2p1:DTO_Cardinality>
+						<d2p1:LowerBorder>0</d2p1:LowerBorder>
+						<d2p1:Type>ctAll</d2p1:Type>
+						<d2p1:UpperBorder>0</d2p1:UpperBorder>
+					</d2p1:DTO_Cardinality>
+				</d2p1:Cardinalities>
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectComponent">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>2a480d5d-00f1-4e96-82e8-4ae6caf20c9f</d2p1:Guid>
+				<d2p1:Name>COMPONENT1</d2p1:Name>
+				<d2p1:Attributes />
+				<d2p1:Characteristics />
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectComponent">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>06c4850f-da7c-4332-a8fe-30478ae9f774</d2p1:Guid>
+				<d2p1:Name>COMPONENT2</d2p1:Name>
+				<d2p1:Attributes>
+					<d2p1:DTO_Attribute>
+						<d2p1:Name>comment</d2p1:Name>
+						<d2p1:Values xmlns:d7p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+							<d7p1:string>url for this service component</d7p1:string>
+						</d2p1:Values>
+					</d2p1:DTO_Attribute>
+				</d2p1:Attributes>
+				<d2p1:Characteristics />
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectConnector">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>52a2601a-3887-4e71-83ae-5eddadc1ca3b</d2p1:Guid>
+				<d2p1:Name>CONNECTOR3</d2p1:Name>
+				<d2p1:Cardinalities>
+					<d2p1:DTO_Cardinality>
+						<d2p1:LowerBorder>0</d2p1:LowerBorder>
+						<d2p1:Type>ctAny</d2p1:Type>
+						<d2p1:UpperBorder>0</d2p1:UpperBorder>
+					</d2p1:DTO_Cardinality>
+				</d2p1:Cardinalities>
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectComponent">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>9b634612-fd10-4b5a-b5c5-2c93beb32e81</d2p1:Guid>
+				<d2p1:Name>COMPONENT5</d2p1:Name>
+				<d2p1:Attributes />
+				<d2p1:Characteristics />
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectComponent">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>692bc1b6-3173-480a-bcc4-a4b6fa2fa784</d2p1:Guid>
+				<d2p1:Name>COMPONENT6</d2p1:Name>
+				<d2p1:Attributes />
+				<d2p1:Characteristics />
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectConnector">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>515f0faf-f662-473f-9910-ccb9a10bc343</d2p1:Guid>
+				<d2p1:Name>CONNECTOR2</d2p1:Name>
+				<d2p1:Cardinalities>
+					<d2p1:DTO_Cardinality>
+						<d2p1:LowerBorder>0</d2p1:LowerBorder>
+						<d2p1:Type>ctAll</d2p1:Type>
+						<d2p1:UpperBorder>0</d2p1:UpperBorder>
+					</d2p1:DTO_Cardinality>
+				</d2p1:Cardinalities>
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectComponent">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>6bc2d5d7-ff2c-42f1-a53b-02fbc1301cc6</d2p1:Guid>
+				<d2p1:Name>COMPONENT3</d2p1:Name>
+				<d2p1:Attributes />
+				<d2p1:Characteristics />
+			</d2p1:DTO_ServiceObject>
+			<d2p1:DTO_ServiceObject i:type="d2p1:DTO_ServiceObjectComponent">
+				<d2p1:Description>no description</d2p1:Description>
+				<d2p1:Guid>0b9a9a71-6605-4897-b6e0-e15f76cd2381</d2p1:Guid>
+				<d2p1:Name>COMPONENT4</d2p1:Name>
+				<d2p1:Attributes />
+				<d2p1:Characteristics />
+			</d2p1:DTO_ServiceObject>
+		</d2p1:ServiceNodes>
+		<d2p1:ViewModels>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorComponent">
+				<d2p1:Guid>d2eb3e2c-c8dd-471d-9197-02d95764fa48</d2p1:Guid>
+				<d2p1:IsPinned>true</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>214</d5p1:X>
+					<d5p1:Y>26</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>09cd77df-c506-4c43-bb88-ae5411809d7a</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorConnector">
+				<d2p1:Guid>d73a18f0-9e2c-40d9-b31a-a058d5d2d0a7</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>145.79803466796875</d5p1:X>
+					<d5p1:Y>128.98281860351563</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>304fcda1-091e-4b6d-b9b4-dc4f54a9a4f9</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorComponent">
+				<d2p1:Guid>89e09a4b-5ef8-496c-8365-e039c6f61280</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>22.479209899902344</d5p1:X>
+					<d5p1:Y>200.60342407226563</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>2a480d5d-00f1-4e96-82e8-4ae6caf20c9f</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorComponent">
+				<d2p1:Guid>cbd34adb-9138-4efc-8214-269702605302</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>140.34846496582031</d5p1:X>
+					<d5p1:Y>200.60342407226563</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>06c4850f-da7c-4332-a8fe-30478ae9f774</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorConnector">
+				<d2p1:Guid>2c1b8175-11bf-4e04-a9f4-804d3dc374ab</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>171.47959899902344</d5p1:X>
+					<d5p1:Y>301.25076293945312</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>52a2601a-3887-4e71-83ae-5eddadc1ca3b</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorComponent">
+				<d2p1:Guid>b90fcf20-0efe-4195-aea3-4ef3f92d690b</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>79.739082336425781</d5p1:X>
+					<d5p1:Y>368.47140502929688</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>9b634612-fd10-4b5a-b5c5-2c93beb32e81</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorComponent">
+				<d2p1:Guid>e0145c28-1781-44cc-b62b-f5688b6b8bbe</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>197.8624267578125</d5p1:X>
+					<d5p1:Y>368.47140502929688</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>692bc1b6-3173-480a-bcc4-a4b6fa2fa784</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorConnector">
+				<d2p1:Guid>ff5ee7bf-332e-46be-a483-8289808f9f7c</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>322.24453735351562</d5p1:X>
+					<d5p1:Y>128.98281860351563</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>515f0faf-f662-473f-9910-ccb9a10bc343</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorComponent">
+				<d2p1:Guid>0593a491-6c02-4d31-b205-56dd2a176fbc</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>260.75192260742188</d5p1:X>
+					<d5p1:Y>200.60342407226563</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>6bc2d5d7-ff2c-42f1-a53b-02fbc1301cc6</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+			<d2p1:DTO_ServiceItemViewModel i:type="d2p1:DTO_ServiceItemVMConfiguratorComponent">
+				<d2p1:Guid>5a8c67e7-8959-4506-8352-dfe33a79bc1a</d2p1:Guid>
+				<d2p1:IsPinned>false</d2p1:IsPinned>
+				<d2p1:Position xmlns:d5p1="http://schemas.datacontract.org/2004/07/System.Windows">
+					<d5p1:X>378.54147338867188</d5p1:X>
+					<d5p1:Y>200.60342407226563</d5p1:Y>
+				</d2p1:Position>
+				<d2p1:ServiceObject>0b9a9a71-6605-4897-b6e0-e15f76cd2381</d2p1:ServiceObject>
+				<d2p1:IsSelected>true</d2p1:IsSelected>
+			</d2p1:DTO_ServiceItemViewModel>
+		</d2p1:ViewModels>
+	</Content>
+	<ModelInfo xmlns:d2p1="http://schemas.datacontract.org/2004/07/ServiceModeller.DataModel.Serialization">
+		<d2p1:CreatedAt>2013-06-10T21:58:42.3547987+02:00</d2p1:CreatedAt>
+		<d2p1:Description/>
+		<d2p1:Group i:nil="true" />
+		<d2p1:GroupId>0</d2p1:GroupId>
+		<d2p1:Id>0</d2p1:Id>
+		<d2p1:IsPublic>false</d2p1:IsPublic>
+		<d2p1:LastChangeAt>2013-06-10T21:58:42.3547987+02:00</d2p1:LastChangeAt>
+		<d2p1:ModelType>Configurator</d2p1:ModelType>
+		<d2p1:Name>Test_Configuration_3</d2p1:Name>
+		<d2p1:Owner>guest</d2p1:Owner>
+		<d2p1:OwnerId>4</d2p1:OwnerId>
+		<d2p1:State>InProgress</d2p1:State>
+	</ModelInfo>
+	<ModelRules xmlns:d2p1="http://schemas.datacontract.org/2004/07/ServiceModeller.DataModel.Serialization">
+		<d2p1:DTO_ServiceModelRule>
+			<d2p1:Name>K1 ibefore K2</d2p1:Name>
+			<d2p1:PreRules>
+				<d2p1:DTO_RuleElementBase i:type="d2p1:DTO_RuleElementComponent">
+					<d2p1:Name i:nil="true" />
+					<d2p1:RuleType>iBefore</d2p1:RuleType>
+					<d2p1:ComponentName>COMPONENT1</d2p1:ComponentName>
+					<d2p1:Selected>true</d2p1:Selected>
+				</d2p1:DTO_RuleElementBase>
+			</d2p1:PreRules>
+			<d2p1:PostRules>
+				<d2p1:DTO_RuleElementBase i:type="d2p1:DTO_RuleElementComponent">
+					<d2p1:Name i:nil="true" />
+					<d2p1:RuleType>iBefore</d2p1:RuleType>
+					<d2p1:ComponentName>COMPONENT2</d2p1:ComponentName>
+					<d2p1:Selected>true</d2p1:Selected>
+				</d2p1:DTO_RuleElementBase>
+			</d2p1:PostRules>
+		</d2p1:DTO_ServiceModelRule>
+		<d2p1:DTO_ServiceModelRule>
+			<d2p1:Name>K1 ibefore K5</d2p1:Name>
+			<d2p1:PreRules>
+				<d2p1:DTO_RuleElementBase i:type="d2p1:DTO_RuleElementComponent">
+					<d2p1:Name i:nil="true" />
+					<d2p1:RuleType>iBefore</d2p1:RuleType>
+					<d2p1:ComponentName>COMPONENT1</d2p1:ComponentName>
+					<d2p1:Selected>true</d2p1:Selected>
+				</d2p1:DTO_RuleElementBase>
+			</d2p1:PreRules>
+			<d2p1:PostRules>
+				<d2p1:DTO_RuleElementBase i:type="d2p1:DTO_RuleElementComponent">
+					<d2p1:Name i:nil="true" />
+					<d2p1:RuleType>iBefore</d2p1:RuleType>
+					<d2p1:ComponentName>COMPONENT5</d2p1:ComponentName>
+					<d2p1:Selected>true</d2p1:Selected>
+				</d2p1:DTO_RuleElementBase>
+			</d2p1:PostRules>
+		</d2p1:DTO_ServiceModelRule>
+		<d2p1:DTO_ServiceModelRule>
+			<d2p1:Name>(K1 and K2) before (K3 and K4)</d2p1:Name>
+			<d2p1:PreRules>
+				<d2p1:DTO_RuleElementBase i:type="d2p1:DTO_RuleElementComponent">
+					<d2p1:Name i:nil="true" />
+					<d2p1:RuleType>before</d2p1:RuleType>
+					<d2p1:ComponentName>COMPONENT1</d2p1:ComponentName>
+					<d2p1:Selected>true</d2p1:Selected>
+				</d2p1:DTO_RuleElementBase>
+				<d2p1:DTO_RuleElementBase i:type="d2p1:DTO_RuleElementComponent">
+					<d2p1:Name i:nil="true" />
+					<d2p1:RuleType>before</d2p1:RuleType>
+					<d2p1:ComponentName>COMPONENT2</d2p1:ComponentName>
+					<d2p1:Selected>true</d2p1:Selected>
+				</d2p1:DTO_RuleElementBase>
+			</d2p1:PreRules>
+			<d2p1:PostRules>
+				<d2p1:DTO_RuleElementBase i:type="d2p1:DTO_RuleElementComponent">
+					<d2p1:Name i:nil="true" />
+					<d2p1:RuleType>before</d2p1:RuleType>
+					<d2p1:ComponentName>COMPONENT3</d2p1:ComponentName>
+					<d2p1:Selected>true</d2p1:Selected>
+				</d2p1:DTO_RuleElementBase>
+				<d2p1:DTO_RuleElementBase i:type="d2p1:DTO_RuleElementComponent">
+					<d2p1:Name i:nil="true" />
+					<d2p1:RuleType>before</d2p1:RuleType>
+					<d2p1:ComponentName>COMPONENT4</d2p1:ComponentName>
+					<d2p1:Selected>true</d2p1:Selected>
+				</d2p1:DTO_RuleElementBase>
+			</d2p1:PostRules>
+		</d2p1:DTO_ServiceModelRule>
+	</ModelRules>
+	<ModelTemporalOrder xmlns:d2p1="http://schemas.datacontract.org/2004/07/ServiceModeller.DataModel.Serialization" />
+	<VersionInfo>0.3</VersionInfo>
+	<AttributeConstraints xmlns:d2p1="http://schemas.datacontract.org/2004/07/ServiceModeller.DataModel.Serialization">
+		<d2p1:DTO_AttributeConstraints>
+			<d2p1:Name>comment</d2p1:Name>
+			<d2p1:Values xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+				<d4p1:KeyValueOfstringboolean>
+					<d4p1:Key>url for this service component</d4p1:Key>
+					<d4p1:Value>true</d4p1:Value>
+				</d4p1:KeyValueOfstringboolean>
+			</d2p1:Values>
+		</d2p1:DTO_AttributeConstraints>
+	</AttributeConstraints>
+	<ModelVariables xmlns:d2p1="http://schemas.datacontract.org/2004/07/ServiceModeller.DataModel.Serialization" />
+</ServiceModelConfigurator>

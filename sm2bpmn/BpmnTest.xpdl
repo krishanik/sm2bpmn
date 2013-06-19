@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<semantic:definitions id="id_33" targetNamespace="http://www.trisotech.com/definitions/_1275500364427" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:semantic="http://www.omg.org/spec/BPMN/20100524/MODEL">
+<semantic:process isExecutable="false" id="id_31">
+<semantic:startEvent name="null" id="id_0">
+	<semantic:outgoing>id_2</semantic:outgoing>
+</semantic:startEvent>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT5" id="COMPONENT5">
+	<semantic:incoming>id_3</semantic:incoming>
+	<semantic:outgoing>id_7</semantic:outgoing>
+</semantic:task>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT1" id="COMPONENT1">
+	<semantic:incoming>id_4</semantic:incoming>
+	<semantic:outgoing>id_8</semantic:outgoing>
+</semantic:task>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT2" id="COMPONENT2">
+	<semantic:incoming>id_6</semantic:incoming>
+	<semantic:outgoing>id_9</semantic:outgoing>
+</semantic:task>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT3" id="COMPONENT3">
+	<semantic:incoming>id_9</semantic:incoming>
+	<semantic:outgoing>id_10</semantic:outgoing>
+</semantic:task>
+<semantic:task completionQuantity="1" isForCompensation="false" startQuantity="1" name="COMPONENT4" id="COMPONENT4">
+	<semantic:incoming>id_10</semantic:incoming>
+	<semantic:outgoing>id_12</semantic:outgoing>
+</semantic:task>
+<semantic:parallelGateway gatewayDirection="Unspecified" name="null" id="id_1">
+	<semantic:incoming>id_2</semantic:incoming>
+	<semantic:outgoing>id_3</semantic:outgoing>
+	<semantic:outgoing>id_4</semantic:outgoing>
+</semantic:parallelGateway>
+<semantic:parallelGateway gatewayDirection="Unspecified" name="null" id="id_5">
+	<semantic:incoming>id_7</semantic:incoming>
+	<semantic:incoming>id_8</semantic:incoming>
+	<semantic:outgoing>id_6</semantic:outgoing>
+</semantic:parallelGateway>
+<semantic:endEvent name="null" id="id_11">
+	<semantic:incoming>id_12</semantic:incoming>
+</semantic:endEvent>
+<semantic:sequenceFlow sourceRef="COMPONENT3" targetRef="COMPONENT4" name="null" id="id_10"/>
+<semantic:sequenceFlow sourceRef="COMPONENT4" targetRef="id_11" name="null" id="id_12"/>
+<semantic:sequenceFlow sourceRef="id_1" targetRef="COMPONENT5" name="null" id="id_3"/>
+<semantic:sequenceFlow sourceRef="id_0" targetRef="id_1" name="null" id="id_2"/>
+<semantic:sequenceFlow sourceRef="id_5" targetRef="COMPONENT2" name="null" id="id_6"/>
+<semantic:sequenceFlow sourceRef="COMPONENT5" targetRef="id_5" name="null" id="id_7"/>
+<semantic:sequenceFlow sourceRef="id_1" targetRef="COMPONENT1" name="null" id="id_4"/>
+<semantic:sequenceFlow sourceRef="COMPONENT1" targetRef="id_5" name="null" id="id_8"/>
+<semantic:sequenceFlow sourceRef="COMPONENT2" targetRef="COMPONENT3" name="null" id="id_9"/>
+</semantic:process>
+<bpmndi:BPMNDiagram documentation="" id="id_32" name="null" resolution="96.00000267028808">
+<bpmndi:BPMNPlane bpmnElement="id_31">
+<bpmndi:BPMNShape bpmnElement="COMPONENT4" id="id_30">
+<dc:Bounds height="50.0" width="50.0" x="1250.0" y="25.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_5" id="id_25">
+<dc:Bounds height="50.0" width="50.0" x="650.0" y="25.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_1" id="id_24">
+<dc:Bounds height="50.0" width="50.0" x="250.0" y="25.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_11" id="id_23">
+<dc:Bounds height="50.0" width="50.0" x="1450.0" y="25.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="id_0" id="id_22">
+<dc:Bounds height="50.0" width="50.0" x="50.0" y="25.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="COMPONENT3" id="id_29">
+<dc:Bounds height="50.0" width="50.0" x="1050.0" y="25.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="COMPONENT2" id="id_28">
+<dc:Bounds height="50.0" width="50.0" x="850.0" y="25.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="COMPONENT1" id="id_27">
+<dc:Bounds height="50.0" width="50.0" x="450.0" y="-100.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNShape bpmnElement="COMPONENT5" id="id_26">
+<dc:Bounds height="50.0" width="50.0" x="450.0" y="150.0"/>
+</bpmndi:BPMNShape>
+<bpmndi:BPMNEdge bpmnElement="id_9" id="id_21">
+<di:waypoint x="850.0" y="25.0"/>
+<di:waypoint x="1050.0" y="25.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_8" id="id_20">
+<di:waypoint x="450.0" y="-100.0"/>
+<di:waypoint x="650.0" y="25.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_12" id="id_14">
+<di:waypoint x="1250.0" y="25.0"/>
+<di:waypoint x="1450.0" y="25.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_10" id="id_13">
+<di:waypoint x="1050.0" y="25.0"/>
+<di:waypoint x="1250.0" y="25.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_2" id="id_16">
+<di:waypoint x="50.0" y="25.0"/>
+<di:waypoint x="250.0" y="25.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_3" id="id_15">
+<di:waypoint x="250.0" y="25.0"/>
+<di:waypoint x="450.0" y="150.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_7" id="id_18">
+<di:waypoint x="450.0" y="150.0"/>
+<di:waypoint x="650.0" y="25.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_6" id="id_17">
+<di:waypoint x="650.0" y="25.0"/>
+<di:waypoint x="850.0" y="25.0"/>
+</bpmndi:BPMNEdge>
+<bpmndi:BPMNEdge bpmnElement="id_4" id="id_19">
+<di:waypoint x="250.0" y="25.0"/>
+<di:waypoint x="450.0" y="-100.0"/>
+</bpmndi:BPMNEdge>
+</bpmndi:BPMNPlane>
+</bpmndi:BPMNDiagram>
+</semantic:definitions>
